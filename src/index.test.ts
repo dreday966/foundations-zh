@@ -9,6 +9,7 @@ test('Chrome type error test', () => {
   at <anonymous>:1:11
   at http://192.168.31.8:8000/a.js:22:3
   `;
+
   
 
     const chromeErr = new Error('test');

@@ -9,8 +9,8 @@ test('Chrome type error test', () => {
       at http://192.168.31.8:8000/a.js:22:3
   `
 
-    const chromeErr = new Error('test');
-    chromeErr.stack = fixtureStack;
+    const chromeErr = new Error('test')
+    chromeErr.stack = fixtureStack
     const expectedValue = {
         message: 'test',
         stack: [
@@ -33,8 +33,8 @@ test('Firefox type error test', () => {
       http://192.168.31.8:8000/a.js:22:3
     `
 
-    const chromeErr = new Error('test');
-    chromeErr.stack = fixtureFirefoxStack;
+    const chromeErr = new Error('test')
+    chromeErr.stack = fixtureFirefoxStack
 
     const expectedValue = {
         message: 'test',

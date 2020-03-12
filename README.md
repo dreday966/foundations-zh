@@ -1,3 +1,8 @@
+## 文件目录
+src/index.ts是主要代码
+
+src/index.test.ts是测试代码
+
 ## Test
 ```
 npm install

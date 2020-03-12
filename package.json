@@ -1,10 +1,9 @@
 {
-  "name": "@leetcode-hire/foundations-zh",
+  "name": "foundations-zh",
   "version": "1.0.0",
   "description": "Frontend foundation problem for leetcode-cn.com",
   "main": "lib/index.js",
-  "repository": "https://github.com/LeetCode-OpenSource/hire",
-  "author": "lynweklm@gmail.com",
+  "author": "jingguo.li.uk@gmail.com",
   "license": "MIT",
   "scripts": {
     "build": "shx rm -rf lib && tsc -p tsconfig.json --outDir lib",
